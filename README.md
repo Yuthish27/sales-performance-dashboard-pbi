@@ -13,7 +13,7 @@ The goal of this project is to analyze and visualize insights about data profess
 ## 📂 Project Files
 - `Power BI - Final Project.xlsx` → Dataset used for analysis  
 - `Dashboard.png` → Screenshot of the Power BI Dashboard  
-
+- `Sales_Performance_Dashboard.pbix` → Main Report
 ---
 
 ## 🔍 Insights from the Dashboard
