@@ -1,36 +1,30 @@
-# Sales Performance Dashboard (Power BI)
+# 📊 Data Professional Survey Breakdown - Power BI Dashboard
 
-An interactive Power BI dashboard to monitor key sales metrics—total sales, average sales, category trends, and regional performance.
+This project presents a Power BI dashboard created from a dataset on **Data Professionals Survey**.  
+The goal of this project is to analyze and visualize insights about data professionals' job titles, salaries, work-life balance, favorite programming languages, and demographics.  
 
-## 🚀 Features
-- Power Query for cleaning and shaping data
-- Data model with relationships
-- DAX measures (Total Sales, Average Sales, YoY Growth, etc.)
-- Slicers, drill-through, and conditional formatting
+---
 
-## 📂 Files
-- `Sales_Performance_Dashboard.pbix` – main report
-- `assets/screenshots/` – key visuals
+## 📷 Dashboard Preview
+![Dashboard Screenshot](Dashboard.png)
 
-## 🧠 DAX (examples)
-- **Total Sales**: `Total Sales = SUM(Sales[SalesAmount])`
-- **Average Sales**: `Avg Sales = AVERAGE(Sales[SalesAmount])`
-- **YoY Sales**: `YoY Sales = CALCULATE([Total Sales], DATEADD('Date'[Date], -1, YEAR))`
+---
 
-## 🖼️ Screenshots
-![KPI](assets/screenshots/kpi.png)
-![Trend](assets/screenshots/trend.png)
+## 📂 Project Files
+- `Power BI - Final Project.xlsx` → Dataset used for analysis  
+- `Dashboard.png` → Screenshot of the Power BI Dashboard  
 
-## 🎥 Demo
-Unlisted video: <YOUR_YOUTUBE_LINK>
+---
 
-## 🔧 How to Open
-1. Download the `.pbix` file.
-2. Open in **Power BI Desktop** (Microsoft Store or standard version).
+## 🔍 Insights from the Dashboard
+1. **Average Salary by Job Title** – Data Scientists earn the highest salaries among all job roles.  
+2. **Country Distribution** – Respondents are mainly from the US, UK, Canada, and India.  
+3. **Favorite Programming Language** – Python is the most preferred language among data professionals.  
+4. **Work-Life Balance & Salary Satisfaction**  
+   - Avg. Work-Life Balance: **5.75/10**  
+   - Avg. Salary Satisfaction: **4.27/10**  
+5. **Demographics**  
+   - Average Age of respondents: **29.86 years**  
+   - Total Survey Takers: **628**  
 
-## 📊 Data
-- Source: <briefly describe or anonymize>
-- Rows/Columns: <optional>
-- Refresh: Manual (file-based)
-
-## 🗂️ Folder Structure
+---
